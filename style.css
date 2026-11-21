@@ -1,0 +1,56 @@
+
+/* Form Tambah Buku */
+#formBuku {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#formBuku input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#formBuku button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#formBuku button:hover {
+    background-color: #555;
+}
+
+/* Pencarian Buku */
+#cari {
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.ringkas {
+    font-size: 14px;
+    margin: 8px 0;
+}
+
+#tombolMenipis {
+    padding: 8px;
+    cursor: pointer;
+}
+
+/* Pesan Validasi */
+#formBuku small {
+    color: red;
+}
+
+#pesan {
+    color: green;
+}
+
+.baris-terpilih {
+    outline: 2px solid blue;
+}
